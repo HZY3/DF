@@ -1,0 +1,5 @@
+dir /a
+wmic useraccount get name,sid
+cd "sid"
+dir /a
+copy $I* \Users\"username"\"foldername"
