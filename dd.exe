@@ -1,0 +1,38 @@
+fdisk -l
+
+sudo dd if=/dev/sda5/ of=/home/kali/Downloads/image
+
+dd if=/home/kali/Downloads/<folder name> of=/home/kali/Downloads/test.img bs=4M
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data duplication refers to instances where the same data is stored in multiple locations or formats. 
+This can occur intentionally, such as when creating backup copies of important data, or unintentionally, 
+such as when data is accidentally copied or saved to multiple locations. While data duplication can provide 
+redundancy and help ensure data availability, it can also make it more difficult to manage data and ensure its 
+accuracy and consistency. In digital forensics, managing data duplication is important to maintain the integrity 
+of evidence and prevent errors or inconsistencies during analysis.
