@@ -1,8 +1,10 @@
+sudo su
+
 fdisk -l
 
-sudo dd if=/dev/sda5/ of=/home/kali/Downloads/image
+sudo dd if= <input path> of= <output path+ op file name>
 
-dd if=/home/kali/Downloads/<folder name> of=/home/kali/Downloads/test.img bs=4M
+dd if= <input path> of= <output path+output file name> bs=4M
 
 
 
